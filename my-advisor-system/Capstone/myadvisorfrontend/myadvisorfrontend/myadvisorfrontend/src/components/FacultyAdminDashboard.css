@@ -1,0 +1,93 @@
+
+.faculty-dashboard-container {
+  min-height: 100vh;
+  background-color: #f9fafb; 
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.faculty-header {
+  background: linear-gradient(to right, #63b3ed, #fbb6ce); 
+  padding: 16px 24px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.faculty-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.welcome-message {
+  color: white;
+  font-size: 14px;
+}
+
+.header-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.faculty-dashboard-main {
+  max-width: 1200px;
+  margin: 80px auto 24px; 
+  padding: 0 24px; 
+}
+
+.dashboard-title {
+  font-size: 36px;
+  color: #2d3748;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+
+.dashboard-boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .dashboard-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.dashboard-boxes .MuiBox-root {
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(53, 3, 33, 0.1);
+  padding: 24px;
+  width: 80%;
+  height: 220px; 
+  text-align: center;
+  color: #3561ae; 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-boxes .MuiBox-root:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ebf8ff; 
+}
+

@@ -1,0 +1,67 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .home-button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .major-details-container {
+    padding: 20px;
+  }
+  
+  .major-field {
+    margin-bottom: 15px;
+  }
+  
+  .major-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .course-list-section {
+    margin-bottom: 20px;
+  }
+  
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .course-item input {
+    width: 80%;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

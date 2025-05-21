@@ -1,0 +1,58 @@
+/* Header styling for MyAppointments */
+.appointments-header {
+    display: flex;
+    align-items: center;
+    background-color: #003D79; 
+    padding: 10px;
+    height: 40px;
+    color: #ffffff; 
+    margin-bottom: 5%;
+}
+
+.header-left, .header-right {
+    flex: -1;
+}
+
+.header-middle {
+    flex: 2;
+    text-align: center;
+}
+
+.appointments-main .appointment-button {
+    align-self: center; 
+    margin-top: auto; 
+    background-color: #003D79;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+    background-color: #003D79;
+}
+
+.profile-button:hover {
+    background-color: #003D79;
+}
+
+
+.appointments-main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+.appointments-table {
+    margin-bottom: 50px; 
+}
+  
+  .selected-row {
+    background-color: #e0e0e0;
+  }

@@ -1,0 +1,70 @@
+/* Top Bar Styling */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #003D79;
+    color: white;
+    height: 40px;
+  }
+  
+  .home-button,
+  .profile-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Appointment Details Styling */
+  .appointment-details-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .appointment-info-box {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-info-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-info-box p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Action Buttons Styling */
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .cancel-button,
+  .edit-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .edit-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  

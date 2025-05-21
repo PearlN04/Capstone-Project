@@ -1,0 +1,109 @@
+
+ .centered-header {
+    text-align: center;
+    margin-top: 20px; 
+ }
+
+  .button-container {
+    margin-left:600px; 
+    margin-top: 30px;          
+  }
+  
+  .button-container {
+    margin-left:1000px; 
+    margin-top: 20px;         
+  }
+
+.custom-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+  .container {
+    width: 100%; 
+    padding: 0px;
+   
+}
+
+.database-display {
+    overflow-x: auto; 
+    padding: 10px;
+}
+  .custom-button {
+    background-color: #282c34; 
+    color: white;             
+    padding: 10px 20px;        
+    margin-left: 20px;         
+    border: none;              
+    border-radius: 5px;       
+    cursor: pointer;          
+  }
+  
+  .custom-button:hover {
+    background-color: #080d25; 
+  }
+  
+  /* Form Container Styling */
+  .form {
+    width: 50%;  
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .form h2 {
+    text-align: center;  
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+  .form .button-container {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 10 px; 
+    margin-top: 20px;
+  }
+  
+  
+  .form button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #45a049; 
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,87 @@
+/* Container for the course management page */
+.course-management-container {
+    padding: 30px;
+    background-color: #f8f9fa; /* Light background for better readability */
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px; /* Rounded container */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Search container with spacing and modern design */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.search-container input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+/* Button to add a new course */
+.search-container button {
+    padding: 10px 20px;
+    background-color: #2785e3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #005a99;
+}
+
+/* List of courses */
+.course-list div {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Styling for selected course */
+.course-list .selected {
+    background-color: #f0f9ff;
+    border-color: #005a99;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Action buttons for editing and deleting courses */
+.course-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.course-actions button {
+    padding: 10px 20px;
+    background-color: #003D79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.course-actions button:hover {
+    background-color: #005a99;
+}

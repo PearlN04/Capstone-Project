@@ -1,0 +1,114 @@
+/* General styling for the advisor dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; 
+   
+}
+
+/* Styling for the profile section */
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #003D79;
+    padding: 15px 100px;
+}
+
+.dashboard-title {
+    font-size: 22px; 
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 60px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info span {
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.dashboard-container .profile-section .profile-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.profile-button:hover {
+    background-color: #ffffff;
+}
+
+
+.menu-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 0;
+    margin-top: 50px; 
+    max-width: 1200px; 
+}
+
+/* Displays a  dashboard tile with a white background */
+.menu-section .menu-tile {
+    background-color: white;
+    border: 2px solid #ddd; 
+    border-radius: 0;
+    padding: 20px;
+    width: 30%; 
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 200px; 
+    transition: transform 0.2s ease; 
+}
+
+/*Lifts and changes the colour of a tile on hover */
+.menu-tile:hover {
+    transform: translateY(-5px); 
+}
+
+.menu-tile p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles the buttons inside the tiles */
+.menu-section .menu-button {
+    background-color: #003D79;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 60%;
+    flex-flow: column;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 0 20px;
+    align-self: center;
+}
+
+/*changes the colour of a button on hover*/
+.menu-button:hover {
+    background-color: #005a99;
+}
